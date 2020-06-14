@@ -1,23 +1,18 @@
 {
-  "index.html": {
-    "href": "index.html",
+  "api/index.html": {
+    "href": "api/index.html",
     "title": "OpenCollar.Extensions.Threading | API Documentation",
-    "keywords": "OpenCollar.Extensions.Threading The purpose of the libarary is to provide extensions and types supporting threading. NuGet Package Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Threading/ Project Latest Build: Source Code on GitHub Issue Tracking on GitHub Documentation on GitHub Pages Usage The purpose of the libarary is to provide extensions and types supporting threading. Related Project OpenCollar.Extensions OpenCollar.Extensions.Threading OpenCollar.Extensions.Threading"
+    "keywords": "OpenCollar.Extensions.Threading The purpose of the libarary is to provide extensions and types supporting threading. NuGet Package Installation Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Threading/"
   },
   "usage/index.html": {
     "href": "usage/index.html",
     "title": "Basics | API Documentation",
     "keywords": "Basics The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime."
   },
-  "api/index.html": {
-    "href": "api/index.html",
+  "index.html": {
+    "href": "index.html",
     "title": "OpenCollar.Extensions.Threading | API Documentation",
-    "keywords": "OpenCollar.Extensions.Threading The purpose of the libarary is to provide extensions and types supporting threading. NuGet Package Installation Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Threading/"
-  },
-  "api/OpenCollar.Extensions.Threading.CallThrottle.html": {
-    "href": "api/OpenCollar.Extensions.Threading.CallThrottle.html",
-    "title": "Class CallThrottle | API Documentation",
-    "keywords": "Class CallThrottle A class providing support for methods that must not be called too often (e.g. UI updates). Inheritance System.Object CallThrottle Implements System.IDisposable Namespace : OpenCollar.Extensions.Threading Assembly : OpenCollar.Extensions.Threading.dll Syntax public sealed class CallThrottle : IDisposable Remarks Gurantees that a gap of at least X ms will be left between calls to the wrapped method. If this is exceeded then all but the last invocation will be ignored and the last call will be delayed until at least X ms have passed. Constructors | Improve this Doc View Source CallThrottle(Action, TimeSpan, String) Initializes a new instance of the CallThrottle class. Declaration public CallThrottle([NotNull] Action call, TimeSpan minimumInterval, string name) Parameters Type Name Description System.Action call The call that will be throttled. System.TimeSpan minimumInterval The minimum interval between calls. System.String name The name to associate with this throttle. Properties | Improve this Doc View Source MinimumInterval Gets the minimum interval between calls. Declaration public TimeSpan MinimumInterval { get; } Property Value Type Description System.TimeSpan | Improve this Doc View Source Name Gets the name associated with this throttle. Declaration public string Name { get; } Property Value Type Description System.String Methods | Improve this Doc View Source Dispose() Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. Declaration public void Dispose() | Improve this Doc View Source Invoke() Attempt to invoke the wrapped callback. Declaration public void Invoke() Remarks If a call has been made Implements System.IDisposable"
+    "keywords": "OpenCollar.Extensions.Threading The purpose of the libarary is to provide extensions and types supporting threading. NuGet Package Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Threading/ Project Latest Build: Source Code on GitHub Issue Tracking on GitHub Documentation on GitHub Pages Usage The purpose of the libarary is to provide extensions and types supporting threading. Related Project OpenCollar.Extensions OpenCollar.Extensions.Threading OpenCollar.Extensions.Threading"
   },
   "api/OpenCollar.Extensions.Threading.DelayedExecute.html": {
     "href": "api/OpenCollar.Extensions.Threading.DelayedExecute.html",
@@ -28,5 +23,10 @@
     "href": "api/OpenCollar.Extensions.Threading.html",
     "title": "Namespace OpenCollar.Extensions.Threading | API Documentation",
     "keywords": "Namespace OpenCollar.Extensions.Threading Classes CallThrottle A class providing support for methods that must not be called too often (e.g. UI updates). DelayedExecute A class that allows a call to an action to be postponed until the execute method has not been called for a minimum period."
+  },
+  "api/OpenCollar.Extensions.Threading.CallThrottle.html": {
+    "href": "api/OpenCollar.Extensions.Threading.CallThrottle.html",
+    "title": "Class CallThrottle | API Documentation",
+    "keywords": "Class CallThrottle A class providing support for methods that must not be called too often (e.g. UI updates). Inheritance System.Object CallThrottle Implements System.IDisposable Namespace : OpenCollar.Extensions.Threading Assembly : OpenCollar.Extensions.Threading.dll Syntax public sealed class CallThrottle : IDisposable Remarks Gurantees that a gap of at least X ms will be left between calls to the wrapped method. If this is exceeded then all but the last invocation will be ignored and the last call will be delayed until at least X ms have passed. Constructors | Improve this Doc View Source CallThrottle(Action, TimeSpan, String) Initializes a new instance of the CallThrottle class. Declaration public CallThrottle([NotNull] Action call, TimeSpan minimumInterval, string name) Parameters Type Name Description System.Action call The call that will be throttled. System.TimeSpan minimumInterval The minimum interval between calls. System.String name The name to associate with this throttle. Properties | Improve this Doc View Source MinimumInterval Gets the minimum interval between calls. Declaration public TimeSpan MinimumInterval { get; } Property Value Type Description System.TimeSpan | Improve this Doc View Source Name Gets the name associated with this throttle. Declaration public string Name { get; } Property Value Type Description System.String Methods | Improve this Doc View Source Dispose() Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. Declaration public void Dispose() | Improve this Doc View Source Invoke() Attempt to invoke the wrapped callback. Declaration public void Invoke() Remarks If a call has been made Implements System.IDisposable"
   }
 }
