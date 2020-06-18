@@ -13,7 +13,7 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <Authors>Jonathan David Evans (jevans@open-collar.org.uk)</Authors>
-        <Description>Extensions and types supporting threading.</Description>
+        <Description>The purpose of the libarary is to provide extensions and types supporting threading.</Description>
         <Copyright>Copyright © 2019-2020 Jonathan Evans (jevans@open-collar.org.uk).</Copyright>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageProjectUrl>https://open-collar.github.io/OpenCollar.Extensions.Threading/index.html</PackageProjectUrl>
@@ -33,7 +33,7 @@
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
 
     <ItemGroup>
@@ -42,7 +42,7 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="OpenCollar.Extensions" Version="0.5.9" />
+        <PackageReference Include="OpenCollar.Extensions" Version="0.5.10" />
         <PackageReference Include="OpenCollar.Extensions.Validation" Version="0.5.11" />
     </ItemGroup>
 
@@ -58,17 +58,17 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Update="Resources\Exceptions.Designer.cs">
-        <DesignTime>True</DesignTime>
-        <AutoGen>True</AutoGen>
-        <DependentUpon>Exceptions.resx</DependentUpon>
-      </Compile>
+        <Compile Update="Resources\Exceptions.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Exceptions.resx</DependentUpon>
+        </Compile>
     </ItemGroup>
 
     <ItemGroup>
-      <EmbeddedResource Update="Resources\Exceptions.resx">
-        <Generator>ResXFileCodeGenerator</Generator>
-        <LastGenOutput>Exceptions.Designer.cs</LastGenOutput>
-      </EmbeddedResource>
+        <EmbeddedResource Update="Resources\Exceptions.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Exceptions.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
     </ItemGroup>
 </Project>
