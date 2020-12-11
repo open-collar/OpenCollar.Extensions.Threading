@@ -1,4 +1,9 @@
 {
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "OpenCollar.Extensions.Threading | API Documentation",
+    "keywords": "OpenCollar.Extensions.Threading The purpose of the libarary is to provide extensions and types supporting threading. NuGet Package Installation Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Threading/"
+  },
   "api/OpenCollar.Extensions.Threading.CallThrottle.html": {
     "href": "api/OpenCollar.Extensions.Threading.CallThrottle.html",
     "title": "Class CallThrottle | API Documentation",
@@ -23,10 +28,5 @@
     "href": "usage/index.html",
     "title": "Basics | API Documentation",
     "keywords": "Basics The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime."
-  },
-  "api/index.html": {
-    "href": "api/index.html",
-    "title": "OpenCollar.Extensions.Threading | API Documentation",
-    "keywords": "OpenCollar.Extensions.Threading The purpose of the libarary is to provide extensions and types supporting threading. NuGet Package Installation Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Threading/"
   }
 }
